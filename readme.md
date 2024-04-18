@@ -48,7 +48,7 @@ Python Script to get timezone from timezonedb API
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-* Run Script: 'python rc_timezoneDB_API.py' and wait until it finish.
-* Go to the databae and verify the table if the data is there.
-* Check the errors in the tzdb_error_log table.
+1. Run Script: 'python rc_timezoneDB_API.py' and wait until it finish.
+2. Go to the databae and verify the table if the data is there.
+3.  Check the errors in the tzdb_error_log table.
 
