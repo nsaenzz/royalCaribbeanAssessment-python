@@ -21,7 +21,7 @@ Python Script to get timezone from timezonedb API
     * python -m pip install urllib3
     * python -m pip install tqdm
 
-2. Create a new schema for your database
+2. Create a new MySql schema for your database
 
 3. Create tables:
     * In your database schema, open a new query
