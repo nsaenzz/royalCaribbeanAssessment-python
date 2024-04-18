@@ -21,11 +21,13 @@ Python Script to get timezone from timezonedb API
     * python -m pip install urllib3
     * python -m pip install tqdm
 
-2. Create the folling database according to instructions
-    * tzdb_timezone
-    * tzdb_zone_details
-    * tzdb_error_log
-    * staging_tzdb_zone_details (This is a stagging table same as tzdb_zone_details)
+2. Create a new schema for your database
+
+3. Create tables:
+    * In your database schema, open a new query
+    * Open database/database.sql
+    * copy the file and paste it in the new query
+    * Run the query 
 
 3. Rename config/config_demo.ini to config/config.ini
 
