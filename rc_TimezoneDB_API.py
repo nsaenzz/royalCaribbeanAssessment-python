@@ -164,11 +164,11 @@ def populate_zone_details():
                     except mysql.connector.Error as e:
                         save_error_log("Error with timezone {}: {}".format(zoneName[0], e))
                         errors += 1
-                        continue
-                else:
-                    save_error_log('Request Error Status on get-time-zone {}: {}'.format(zoneName[0], req.status_code))
-                    errors += 1
-                    continue
+                        continue  
+            else:
+                save_error_log('Request Error Status on get-time-zone {}: {}'.format(zoneName[0], req.status_code))
+                errors += 1
+                continue
                 
         print('Saving timezone detail into tzdb_zone_details table')
         #Get all the data from staging and import it into tzdb_zone_details table
